@@ -26,5 +26,5 @@ services:
 
     Symfony\Bridge\Monolog\Handler\ElasticsearchLogstashHandler:
         arguments:
-            $endpoint: 'https://1ed552ce42f145009c7f4608357be6f0.kb.eastus2.azure.elastic-cloud.com/foo/_doc'
+            $endpoint: 'http://localhost:8000/bar'
             $client: '@http_client'
